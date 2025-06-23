@@ -1,0 +1,240 @@
+body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-responsive {
+    margin: 30px 0;
+}
+
+.table-wrapper {
+    min-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+    min-width: 100%;
+}
+
+.table-title h2 {
+    margin: 8px 0 0;
+    font-size: 22px;
+}
+
+.search-box {
+    position: relative;
+    float: right;
+}
+
+.search-box input {
+    height: 34px;
+    border-radius: 20px;
+    padding-left: 35px;
+    border-color: #ddd;
+    box-shadow: none;
+}
+
+.search-box input:focus {
+    border-color: #3FBAE4;
+}
+
+.search-box i {
+    color: #a0a5b1;
+    position: absolute;
+    font-size: 19px;
+    top: 8px;
+    left: 10px;
+}
+
+table.table tr th,
+table.table tr td {
+    border-color: #e9e9e9;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fcfcfc;
+}
+
+table.table-striped.table-hover tbody tr:hover {
+    background: #f5f5f5;
+}
+
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+table.table td:last-child {
+    width: 130px;
+}
+
+table.table td a {
+    color: #a0a5b1;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+table.table td a.view {
+    color: #03A9F4;
+}
+
+table.table td a.edit {
+    color: #FFC107;
+}
+
+table.table td a.delete {
+    color: #E34724;
+}
+
+table.table td i {
+    font-size: 19px;
+}
+
+.pagination {
+    float: right;
+    margin: 0 0 5px;
+}
+
+.pagination li a {
+    border: none;
+    font-size: 95%;
+    width: 30px;
+    height: 30px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 30px !important;
+    text-align: center;
+    padding: 0;
+}
+
+.pagination li a:hover {
+    color: #666;
+}
+
+.pagination li.active a {
+    background: #03A9F4;
+}
+
+.pagination li.active a:hover {
+    background: #0397d6;
+}
+
+.pagination li.disabled i {
+    color: #ccc;
+}
+
+.pagination li i {
+    font-size: 16px;
+    padding-top: 6px
+}
+
+.hint-text {
+    float: left;
+    margin-top: 6px;
+    font-size: 95%;
+}
+.type-bug {
+    background-color: #A8B820;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+
+.type-electric {
+    background-color: #F8D030;
+    color: black;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+
+.type-fire {
+    background-color: #F08030;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+.type-water {
+    background-color: #3083f0;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+.type-flying {
+    background-color: #7fb4fa;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+
+.type-poison {
+    background-color: #7308ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+
+.type-normal {
+    background-color: #bbbbbb49;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+.type-ground {
+    background-color: #302020;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+
+.type-grass {
+    background-color: #07e04f;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25rem;
+}
+body.bg-index {
+  background-image: url('https://wallpapers.com/images/featured/pokemon-hd-fazqcs1tmwwte1ap.jpg'); /* ruta a tu imagen */
+  background-size: cover;          /* La imagen cubre toda la pantalla */
+  background-position: center;     /* Centrada */
+  background-repeat: no-repeat;    /* Sin repetir */
+  background-attachment: fixed;    /* Fija al hacer scroll */
+  height: 100vh;                   /* Altura mínima de toda la ventana */
+  margin: 0;
+  padding: 0;
+}
+.main-content {
+  background-color: rgba(255, 255, 255, 0.8); /* blanco translúcido */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: auto;
+}
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('/static/fonts/PokemonSolid.ttf') format('truetype');
+}
+
+h1, h2, h3 {
+    font-family: 'PokemonSolid', sans-serif;
+    color: #FFCB05; /* color característico Pokémon */
+    text-shadow: 2px 2px #2a75bb; /* sombra azul estilo logo */
+}
